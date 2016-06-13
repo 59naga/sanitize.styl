@@ -22,7 +22,7 @@ const render = (str) => {
 
 const specs = [
   {
-    description: 'when import should does not yielding',
+    description: 'when import should not be yielding',
     code: '',
     expected: /^$/
   },
