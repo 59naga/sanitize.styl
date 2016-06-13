@@ -1,0 +1,35 @@
+{
+  "name": "sanitize.styl",
+  "description": "add sanitize() mixin using sanitize.css/lib/sanitize.styl",
+  "version": "0.0.0",
+  "files": [
+    "sanitize.styl",
+    "index.js"
+  ],
+  "dependencies": {
+    "sanitize.css": "^3.3.0"
+  },
+  "scripts": {
+    "start": "abby test --watch \"index.*,test.js\"",
+    "test": "ava",
+    "lint": "xo",
+    "postversion": "git push --follow-tags && conventional-github-releaser -p atom -r 0"
+  },
+  "xo": {
+    "space": 2
+  },
+  "devDependencies": {
+    "abigail": "^1.9.0",
+    "ava": "^0.15.2",
+    "conventional-github-releaser": "^1.1.2",
+    "escape-regexp": "^0.0.1",
+    "stylus": "^0.54.5",
+    "xo": "^0.15.1"
+  },
+  "keywords": [
+    "stylus",
+    "stylus-plugin",
+    "mixin",
+    "sanitize.css"
+  ]
+}
