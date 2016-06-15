@@ -31,5 +31,15 @@
     "stylus-plugin",
     "mixin",
     "sanitize.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/59naga/sanitize.styl.git"
+  },
+  "author": "59naga <i59naga@icloud.com> (http://berabou.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/59naga/sanitize.styl/issues"
+  },
+  "homepage": "https://github.com/59naga/sanitize.styl#readme"
 }
