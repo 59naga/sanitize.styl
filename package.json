@@ -7,7 +7,7 @@
     "index.js"
   ],
   "dependencies": {
-    "sanitize.css": "^3.3.0"
+    "sanitize.css": "*"
   },
   "scripts": {
     "start": "abby test --watch \"index.*,test.js\"",
