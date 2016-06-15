@@ -22,6 +22,12 @@ Installation
 npm install sanitize.styl --save
 ```
 
+or, force latest `sanitize.css` installation using `@newest`.
+
+```bash
+npm install sanitize.styl@newest --save
+```
+
 Usage
 ---
 
