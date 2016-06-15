@@ -1,7 +1,7 @@
 {
   "name": "sanitize.styl",
   "description": "add sanitize() mixin using sanitize.css/lib/sanitize.styl",
-  "version": "0.0.0",
+  "version": "0.0.0-latest",
   "files": [
     "sanitize.styl",
     "index.js"
